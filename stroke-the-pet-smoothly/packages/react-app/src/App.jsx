@@ -423,7 +423,7 @@ function App(props) {
           fontSize: '150%'
         }} selectedKeys={[location.pathname]} mode="horizontal">
           <Menu.Item key="/">
-            <Link to="/"><span style={{ color: '#000000' }}>Stroke that pet ever so smoothly</span></Link>
+            <Link to="/"><span style={{ color: '#000000' }}><b>AutoTx!</b> Stroke that pet ever so smoothly</span></Link>
           </Menu.Item>
         </Menu>
       }

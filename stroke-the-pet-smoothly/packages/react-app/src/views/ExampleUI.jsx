@@ -1,6 +1,6 @@
 import { Button, Row, Col, Card, DatePicker, Divider, Input, Progress, Slider, Spin, Switch } from "antd";
 import React, { useState } from "react";
-import petImage from '../cute-pet.png';
+import petImage from '../Happy Pet 2.png';
 import './ExampleUI.css';
 import { utils } from "ethers";
 import { SyncOutlined } from "@ant-design/icons";
@@ -26,8 +26,8 @@ export default function ExampleUI({
           style={{
             margin: 20,
             paddingBottom: '10px',
-            fontSize: '120%',
-            width: '900px',
+            fontSize: '110%',
+            width: '950px',
             height: '80px',
             borderRadius: '30px',
             borderWidth: '4px',
@@ -57,10 +57,10 @@ export default function ExampleUI({
             console.log(await result);
           }}
         >
-          Press this button to stroke pet using Metamask Snaps
+          Press this button to stroke pet using&nbsp;<b>AutoTx</b>, a Metamask Snap
         </Button>
       </div>
-      <img src={petImage} alt="Cute Pet" style={{ margin: '10px' }} />
+      <img src={petImage} alt="Cute Pet" style={{ margin: '10px', width:'360px' }} />
       <p style={{ color: 'darkgreen' }}>Pet has been stroked {countPetStrokes} times</p>
       <p style={{ color: 'grey' }}>Is this too smooth? Try using the <a href="https://stroke-the-pet-painfully.surge.sh/"><u>painful version</u></a> with Metamask pop-ups</p>
       <div style={{ color: '#BB8800', fontSize: '65%' }}>
